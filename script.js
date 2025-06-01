@@ -1,6 +1,6 @@
 const supabase = supabase.createClient(
-  'SUA_URL_DO_SUPABASE',
-  'SUA_CHAVE_ANON'
+  'https://zgavnipukkdtwlcvenhh.supabase.co',
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpnYXZuaXB1a2tkdHdsY3ZlbmhoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDg3MDQwMjcsImV4cCI6MjA2NDI4MDAyN30.ZyoR9jvppwtCXhmSKRqQ67_pz19s2TWnxwpkFC_WcuM'
 );
 
 async function signUp() {
